@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #F03C42;
+    --color-secundary: #FFF964;
+    --ligth-grey:  #E5E5E5;
+    --dark-grey: #5E5E5E;
+    --color-gren: #02B814;
+    --color-white: #ffffff;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header {
+    min-height: 70px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    
+    padding: 0 15px;
+}
+
+nav h1 {
+    color: var(--color-secundary);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#pizzas {
+    padding: 20px 15px;
+    background-color: var(--ligth-grey);
+}
+.pizza-card img {
+    width: 200px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.pizza-card {
+    display: flex;
+    margin: 20px 0;
+}
+.descrition-card-pizzas {
+    background-color: var(--color-white);
+    border-radius: 0 12px 12px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descrition-card-pizzas h3 {
+    color: var(--dark-grey);
+    font-size: 24px;
+}
+
+.descrition-card-pizzas p {
+    color: var(--dark-grey);
+    font-size: 14px;
+}
+
+.descrition-card-pizzas h4 {
+    color: var(--color-gren);
+    font-size: 24px;
+}
+
+#coments {
+    padding: 40px 15px;
+    background-color: var(--color-white);
+}
+
+#coments h2 {
+    color: var(--dark-grey);
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+.coments-card {
+    min-height: 79px;
+    background-color: var(--color-secundary);
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.coments-card p {
+    color: var(--color-primary);
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+footer {
+    padding: 0 15px;
+    background-color: var(--color-primary);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content {
+color: var(--color-secundary);
+font-style: normal;
+display: flex;
+justify-content: space-between;
+}
+
+.link-shop {
+    font-size: 16px;
+}
+
+.andress {
+    font-size: 16px;
+}
